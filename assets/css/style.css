@@ -1,0 +1,528 @@
+html {
+	scroll-behavior: smooth;
+}
+
+#titles {
+	background: url("../images/logo2.png") center;
+}
+
+.port-img {
+	max-width: 100%;
+}
+
+
+#main {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  background: -webkit-linear-gradient(110deg, #b1b1b1 40%, #212121 40%);
+  background: -o-linear-gradient(110deg, #b1b1b1 40%, #212121 40%);
+  background: -moz-linear-gradient(110deg, #b1b1b1 40%, #212121 40%);
+  background: linear-gradient(110deg, #b1b1b1 40%, #212121 40%);
+}
+
+#titles {
+  z-index: 10;
+}
+.masthead-title {
+  font-size: 4rem !important;
+	margin-top: 12rem;
+}
+
+.masthead-subtitle {
+  font-size: 1.5rem;
+}
+
+.masthead-logo {
+	max-width: 80vw;
+}
+
+.page-section {
+	width: 75vw;
+	margin: auto;
+	margin-top: 1rem;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,.6) !important;
+  padding: 1rem;
+  opacity: 0;
+}
+
+.page-section-heading {
+	padding-top:15px;
+}
+
+.fa-6x {
+	padding-top: 10px;
+}
+
+#top-nav {
+	min-height: 66px;
+  padding: .5rem;
+  width: 100% !important;
+}
+
+.show {
+  background-color: #212121;
+}
+
+.nav-link {
+    padding: 1rem 1rem;
+    border: 0.3125rem solid transparent;
+}
+
+.masthead {
+	height: 100vh;
+	min-height: 350px;
+}
+
+.masthead-title {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.navbar-brand-logo {
+	height:100px;
+}
+
+.fit-height {
+    height: 100% !important;
+}
+
+.page-section {
+	background-color: white;
+}
+
+.masthead {
+  background: #1D4350;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+.masthead *:before,
+.masthead *:after {
+	content: '';
+	display: block;
+	position: absolute;
+}
+
+#lh {
+  z-index: 0;
+}
+
+#lighthouse {
+	position: absolute;
+	margin: auto;
+	right: 700px;
+	left: 0;
+	bottom: 138px;
+}
+
+#lighthouse:before {
+	right: 30px;
+	left: 0;
+	margin: 0 auto;
+	height: 24px;
+	width: 12px;
+	background: #4f1c15;
+	bottom: 0;
+  border-radius: 6px 6px 0 0;
+  z-index:1;
+}
+
+#lighthouse:after {
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	background: #8f8f8f;
+	width: 98px;
+	bottom: -16px;
+	height: 16px;
+	box-shadow: inset 58px 0 0 0 #b0b0b0;
+}
+
+#base {
+	background: #4283a1;
+	width: 100%;
+	height: 75px;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	box-shadow: inset 0 20px 0 #387591,
+ 0 -20px 0 #2f6680,
+ 0 -40px 0 #28586e;
+	z-index: 0;
+}
+
+#base:after {
+	width: 140px;
+	height: 70px;
+	background: #778733;
+	border-radius: 140px 140px 0 0;
+	margin: 0 auto;
+	bottom: 75px;
+	left: 0;
+	right: 700px;
+}
+
+#balcony {
+	margin: 0 auto;
+	position: relative;
+	border-top: 16px solid #8f8f8f;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	width: 76px;
+}
+
+#balcony:after {
+	left: -10px;
+	right: 0;
+	margin: 0 auto;
+	width: 76px;
+	top: -28px;
+	height: 2px;
+	background: #636363;
+}
+
+#balcony:before {
+	width: 2px;
+	height: 12px;
+	background: #636363;
+	left: -10px;
+	top: -28px;
+	box-shadow: 9px 0 0 #636363, 18px 0 0 #636363, 27px 0 0 #636363, 37px 0 0 #636363, 47px 0 0 #636363, 56px 0 0 #636363, 65px 0 0 #636363, 74px 0 0 #636363;
+}
+
+#glass {
+	width: 50px;
+	height: 32px;
+	margin: 0 auto;
+	background: #b0b0b0;
+	box-shadow: 0 -26px 0 -6px #b2daed,
+ 0 -30px 0 -6px #999;
+}
+
+#glass:before {
+	width: 2px;
+	height: 20px;
+	background: #f2f2f2;
+	left: -36px;
+	right: 0;
+	margin: 0 auto;
+	top: 22px;
+	box-shadow: 12px 0 0 #f2f2f2, 24px 0 0 #f2f2f2, 36px 0 0 #f2f2f2;
+}
+
+#top {
+	width: 38px;
+	height: 18px;
+	background: #8D3C46;
+	border-radius: 18px 18px 0 0;
+	margin: 0 auto 24px;
+	position: relative;
+}
+
+#top:before {
+	background: #8D3C46;
+	height: 30px;
+	width: 2px;
+	right: 0;
+	left: 0;
+	margin: auto;
+	top: -30px;
+}
+
+/* Univ Level Rules */
+#lighthouse .row {
+	height: 0;
+	position: relative;
+	margin: 0 auto;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+}
+
+#lighthouse .row:before, #lighthouse .row:after {
+	border-style: inherit;
+}
+
+#lighthouse .row:before {
+	left: -3px;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-left-color: transparent;
+}
+
+#lighthouse .row:after {
+	border-left: 0 solid transparent;
+	border-right: 3px solid transparent;
+	border-bottom: 50px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Specific Levels - Widths are 1px wider on some areas to cover ugly rendering. I also can't get nth-child to work. */
+#lighthouse .row {
+  width: 60px;
+  border-bottom: 50px solid #8D3C46; 
+}
+
+#lighthouse .row:before {
+  border-bottom-color: #f2f2f2;
+  border-width: 0 3px 50px 58px;
+}
+
+#lighthouse .row:after {
+  left: 30px;
+  width: 28px;
+}
+
+#lighthouse .row + .row {
+  width: 66px;
+  border-bottom: 50px solid #f2f2f2;
+}
+
+#lighthouse .row + .row:before {
+  border-bottom-color: #8D3C46;
+  border-width: 0 3px 50px 64px;
+}
+
+#lighthouse .row + .row:after {
+  left: 33px;
+  width: 31px;
+}
+
+#lighthouse .row + .row + .row {
+  width: 72px;
+  border-bottom: 50px solid #8D3C46;
+}
+
+#lighthouse .row + .row + .row:before {
+  border-bottom-color: #f2f2f2;
+  border-width: 0 3px 50px 70px;
+}
+
+#lighthouse .row + .row + .row:after {
+  left: 36px;
+  width: 34px;
+}
+
+#lighthouse .row + .row + .row + .row {
+  width: 78px;
+  border-bottom: 50px solid #f2f2f2;
+}
+
+#lighthouse .row + .row + .row + .row:before {
+  border-bottom-color: #8D3C46;
+  border-width: 0 3px 50px 76px;
+}
+
+#lighthouse .row + .row + .row + .row:after {
+  left: 39px;
+  width: 36px;
+}
+	
+/*=========================
+  Icons
+ ================= */
+
+.footer-top {
+	border-top: silver 2.5px solid !important;
+	margin-top: 0;
+	padding-top: 20px;
+}
+
+/* footer social icons */
+ul.social {
+	list-style: none;
+	margin-left:0 !important;
+	padding: 0;
+	margin: 40px auto;
+}
+
+ul.social li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.pres, .contact {
+	color: #D3D3D3;
+}
+
+.footer-title {
+	color: #33ccff;
+}
+
+/* footer social icons */
+.social a.face:hover {
+	background:#3B5998;
+}
+
+.social a.twit:hover {
+	background:#33ccff;
+}
+
+.social a.goog:hover {
+	background:#BD3518;
+}
+.social a.linked:hover {
+	background:#007bb7;
+}
+
+.social a.face:hover i, .social a.twit:hover i,
+.social a.goog:hover i, .social a.linked:hover i {
+	color:#fff;
+}
+
+.social li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+	background: #094c72;
+	background: -webkit-radial-gradient(bottom, ellipse cover, #094c72 0%, #01293f 100%);
+	background: -webkit-radial-gradient(ellipse at bottom, #094c72 0%, #01293f 100%);
+	background: -webkit-radial-gradient(bottom, ellipse, #094c72 0%, #01293f 100%);
+	background: radial-gradient(ellipse at bottom, #094c72 0%, #01293f 100%);  
+}
+
+.social li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social li a:hover i {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.social i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.footer-top {
+  background: #094c72;
+	background: -webkit-radial-gradient(bottom, ellipse cover, #094c72 0%, #01293f 100%);
+	background: -webkit-radial-gradient(ellipse at bottom, #094c72 0%, #01293f 100%);
+	background: -webkit-radial-gradient(bottom, ellipse, #094c72 0%, #01293f 100%);
+	background: radial-gradient(ellipse at bottom, #094c72 0%, #01293f 100%);	
+}
+
+@media screen and (max-width: 856px) {
+	#lighthouse {
+		right: 0;
+	}
+  
+  #base:after {
+		right: 0;
+	}
+}
+
+@media (min-width: 768px) { 
+  #top-nav {
+    transition: padding-top 0.2s ease-in-out, padding-bottom 0.2s ease-in-out;
+    padding: 1.5rem 0;
+    min-height: 64px;
+    background: transparent !important;
+	}
+	
+	#top-nav.collapsed {
+		padding: 0;
+		background: black !important;
+		border-bottom: silver 2.5px solid !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+  #top-nav {
+    background: transparent !important;
+  }
+}
+
+@media screen and (max-height: 550px) {
+	.navbar{
+	  background: transparent !important;
+	}
+  
+  .navbar-brand {
+		visibility: hidden;
+  }
+  
+  #lighthouse {
+    bottom: 40px;
+  }
+
+  #base {
+    bottom: -100px;
+  }
+
+  .masthead {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+	.stars {
+	  visibility: hidden;
+	  clear: both;
+	  float: left;
+	  margin: 10px auto 5px 20px;
+	  width: 28%;
+	  display: none;
+	}
+  
+  .fa-6x {
+		font-size: 5rem !important;
+		margin: 0 8px;
+	}
+}
+
+@media screen and (max-width: 532px) {
+	.fa-6x {
+	  font-size: 3rem !important;
+  }
+
+  #lighthouse:before {
+    visibility: hidden;
+  }
+
+  #network-head {
+    font-size: 2rem !important;
+  }
+
+  #test-head {
+    font-size: 2rem !important;
+  }
+  
+  .page-section-heading {
+    font-size: 1.5rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+}
